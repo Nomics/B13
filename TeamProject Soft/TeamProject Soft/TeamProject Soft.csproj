@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="WebForm1.aspx" />
     <EntityDeploy Include="Model.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model.Designer.cs</LastGenOutput>
@@ -154,6 +155,13 @@
     <Compile Include="schedule.cs">
       <SubType>Code</SubType>
       <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
